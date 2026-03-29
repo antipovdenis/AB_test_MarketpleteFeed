@@ -142,7 +142,7 @@
 ├── 📁 reports/
 │  └── final_report.pdf # полный отчет
 ├── 📁 images/ # графики для README
-└── README.md
+
 ```
 ---
 
