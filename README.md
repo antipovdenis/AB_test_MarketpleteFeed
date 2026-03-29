@@ -128,18 +128,22 @@
 ---
 
 ## 📁 Структура репозитория
-├── data/
-│ ├── raw/ # исходные данные
-│ ├── processed/ # очищенные данные
-├── notebooks/
-│ ├── 01_eda.ipynb
-│ ├── 02_sanity_checks.ipynb
-│ └── 03_analysis.ipynb
-├── reports/
-│ └── final_report.pdf # полный отчет
-├── images/ # графики для README
+```
+├── 📁 data
+│ ├── 📁 raw  # исходные данные
+│ |   ├── data.csv # eda
+│ |   └── marketpele_ab_test.xlsx     # исходный файл
+│ └── 📁 processed     # очищенные данные
+│     └── valid_data.csv
+├── 📁 notebooks/
+│  ├── 01_eda.ipynb
+│  ├── 02_sanity_checks.ipynb
+│  └── 03_analysis.ipynb
+├── 📁 reports/
+│  └── final_report.pdf # полный отчет
+├── 📁 images/ # графики для README
 └── README.md
-
+```
 ---
 
 ## 🚀 Как воспроизвести анализ
@@ -156,3 +160,4 @@
 
 ## 📄 Лицензия
 Проект выполнен в учебных целях. Данные синтетические/обезличенные.
+
